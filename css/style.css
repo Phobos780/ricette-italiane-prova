@@ -312,6 +312,7 @@ header {
     clear: left; }
 
   #gallery .caption p {
+    font-family: 'Kalam', cursive;
     font-size: 12px; }
 
   #gallery .item {
