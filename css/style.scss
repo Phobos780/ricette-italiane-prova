@@ -201,13 +201,12 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 5px;
-    margin-left: 5px;
 
     .links{
       @include links;
       a{
         color: #00b3b3;
-        padding-left: 3px;
+        padding-left: 33px;
       }
     }
     img{/*mini icona di fianco al num di cell*/
