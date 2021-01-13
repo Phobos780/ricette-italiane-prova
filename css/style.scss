@@ -204,9 +204,10 @@ header{
 
     .links{
       @include links;
+      margin-left: -55px;
       a{
         color: #00b3b3;
-        padding-left: 33px;
+        padding-left: 3px;
       }
     }
     img{/*mini icona di fianco al num di cell*/
