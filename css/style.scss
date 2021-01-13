@@ -201,6 +201,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 5px;
+    padding-left:  -15px;
 
     .links{
       @include links;
