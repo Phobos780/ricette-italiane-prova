@@ -364,8 +364,7 @@ header {
     #footerBox .footerLink {
       display: flex;
       justify-content: center;
-      padding: 5px;
-      margin-left: -30px; }
+      padding: 5px; }
       #footerBox .footerLink .links {
         color: #bbff33;
         padding: 3px 7px; }
