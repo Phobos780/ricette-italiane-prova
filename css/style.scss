@@ -201,7 +201,6 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 5px;
-    margin-left: -70px;
     .links{
       @include links;
       a{
@@ -415,8 +414,8 @@ header{
     .footerLink{
       display: flex;
       justify-content: center;
-      padding: 2px;
-
+      padding: 5px;
+      margin-left: -30px;
       .links{
         color: #bbff33;
         padding: 3px 7px;
