@@ -144,6 +144,12 @@ header {
   background-color: #604020; }
 
 /***** F O O T E R *****/
+footer .myLogo {
+  text-align: center;
+  margin: 70px; }
+  footer .myLogo img {
+    width: 200px; }
+
 #footerBox {
   clear: both;
   /*questo comando esola "FOOTER" da gli "FLOAT", cioè footer rimane sempre al suo posto*/
@@ -167,7 +173,8 @@ header {
   #footerBox .footerLink {
     display: flex;
     justify-content: space-around;
-    padding: 5px; }
+    padding: 5px;
+    margin-left: -70px; }
     #footerBox .footerLink .links {
       color: #bbff33;
       padding: 5px 10px; }
@@ -342,6 +349,12 @@ header {
     height: 25px; }
 
   /***** F O O T E R *****/
+  footer .myLogo {
+    text-align: center;
+    margin: 30px; }
+    footer .myLogo img {
+      width: 200px; }
+
   #footerBox {
     clear: both;
     /*questo comando esola "FOOTER" da gli "FLOAT", cioè footer rimane sempre al suo posto*/
@@ -365,7 +378,7 @@ header {
       display: flex;
       justify-content: center;
       padding: 5px;
-      margin-right: 20px; }
+      margin-right: -50px; }
       #footerBox .footerLink .links {
         color: #bbff33;
         padding: 3px 7px; }
