@@ -177,6 +177,17 @@ header{
 
 /***** F O O T E R *****/
 
+footer  {
+  .myLogo{
+    text-align: center;
+    margin: 70px;
+    img{
+      width: 200px;
+    }
+  }
+}
+
+
 #footerBox{
   clear: both;/*questo comando esola "FOOTER" da gli "FLOAT", cioè footer rimane sempre al suo posto*/
   //float: right;
@@ -201,6 +212,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 5px;
+    margin-left: -70px;
     .links{
       @include links;
       a{
@@ -392,6 +404,16 @@ header{
 
   /***** F O O T E R *****/
 
+  footer  {
+    .myLogo{
+      text-align: center;
+      margin: 30px;
+      img{
+        width: 200px;
+      }
+    }
+  }
+
   #footerBox{
     clear: both;/*questo comando esola "FOOTER" da gli "FLOAT", cioè footer rimane sempre al suo posto*/
     //float: right;
@@ -415,7 +437,7 @@ header{
       display: flex;
       justify-content: center;
       padding: 5px;
-      margin-right: 20px;
+      margin-right: -50px;
       .links{
         color: #bbff33;
         padding: 3px 7px;
