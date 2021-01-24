@@ -180,7 +180,7 @@ header{
 footer  {
   .myLogo{
     text-align: center;
-    margin: 70px;
+    margin: 5px 50px 20px 50px;
     img{
       width: 200px;
     }
@@ -211,8 +211,8 @@ footer  {
   .footerLink{
     display: flex;
     justify-content: space-around;
+    margin-left: -50px;
     padding: 5px;
-    margin-left: -70px;
     .links{
       @include links;
       a{
@@ -407,7 +407,7 @@ footer  {
   footer  {
     .myLogo{
       text-align: center;
-      margin: 30px;
+      margin-top: 5px;
       img{
         width: 200px;
       }
@@ -434,10 +434,10 @@ footer  {
       }
     }
     .footerLink{
-      display: flex;
-      justify-content: center;
+      width: 100%;
+      text-align: center;
+      margin-left: 0px;
       padding: 5px;
-      margin-right: -50px;
       .links{
         color: #bbff33;
         padding: 3px 7px;
